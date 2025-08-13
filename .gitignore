@@ -1,0 +1,40 @@
+# Virtual environment
+venv/
+.venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE files
+.idea/
+.vscode/
+
+# Environment variables
+.env
+.env.*
+
+# Database files
+# For SQLite, you might have a file like this
+*.db
+*.sqlite3
+
+# Log files
+*.log
+!debug.log # example of an exception to the rule
+
+# Build and test files
+dist/
+build/
+*.egg-info/
+.pytest_cache/
+htmlcov/
+.nox/
+
+# Media and user-uploaded files
+media/
+uploads/
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
